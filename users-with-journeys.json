@@ -1,0 +1,996 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "email": "rajesh.kumar@example.com",
+      "preferences": {
+        "interests": ["web-development", "javascript", "react", "nodejs", "full-stack"],
+        "skillLevel": "intermediate",
+        "preferredContentType": ["courses", "books"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-01T09:15:00Z",
+          "duration": 45
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_react_complete",
+          "contentType": "course",
+          "title": "Complete React Development Course",
+          "timestamp": "2024-11-01T09:20:00Z",
+          "duration": 120
+        },
+        {
+          "eventType": "search",
+          "query": "react hooks",
+          "resultsCount": 12,
+          "timestamp": "2024-11-01T09:25:00Z"
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_react_complete",
+          "timestamp": "2024-11-01T09:30:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_nodejs_advanced",
+          "contentType": "course",
+          "title": "Advanced Node.js Development",
+          "timestamp": "2024-11-01T10:00:00Z",
+          "duration": 180
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_nodejs_advanced",
+          "contentType": "course",
+          "price": 2999,
+          "timestamp": "2024-11-01T10:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_nodejs_advanced",
+          "contentType": "course",
+          "price": 2999,
+          "timestamp": "2024-11-01T10:10:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_nodejs_advanced",
+          "progress": 35,
+          "timestamp": "2024-11-05T14:30:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_javascript_guide",
+          "contentType": "book",
+          "title": "JavaScript: The Complete Guide",
+          "timestamp": "2024-11-08T11:00:00Z",
+          "duration": 90
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_fullstack_mastery",
+          "contentType": "course",
+          "title": "Full-Stack Web Development Mastery",
+          "timestamp": "2024-11-10T16:20:00Z",
+          "duration": 150
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_fullstack_mastery",
+          "contentType": "course",
+          "price": 4999,
+          "timestamp": "2024-11-10T16:25:00Z"
+        },
+        {
+          "eventType": "click",
+          "element": "recommended_course_card",
+          "contentId": "course_nextjs_complete",
+          "timestamp": "2024-11-12T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_002",
+      "email": "priya.sharma@example.com",
+      "preferences": {
+        "interests": ["data-science", "python", "machine-learning", "analytics"],
+        "skillLevel": "beginner",
+        "preferredContentType": ["courses", "webinars"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-02T10:00:00Z",
+          "duration": 60
+        },
+        {
+          "eventType": "search",
+          "query": "python for beginners",
+          "resultsCount": 8,
+          "timestamp": "2024-11-02T10:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_python_basics",
+          "contentType": "course",
+          "title": "Python Programming for Beginners",
+          "timestamp": "2024-11-02T10:10:00Z",
+          "duration": 200
+        },
+        {
+          "eventType": "webinar_view",
+          "contentId": "webinar_ml_intro",
+          "contentType": "webinar",
+          "title": "Introduction to Machine Learning",
+          "timestamp": "2024-11-03T15:00:00Z",
+          "duration": 3600
+        },
+        {
+          "eventType": "webinar_register",
+          "contentId": "webinar_ml_intro",
+          "timestamp": "2024-11-03T15:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_data_science_fundamentals",
+          "contentType": "course",
+          "title": "Data Science Fundamentals",
+          "timestamp": "2024-11-05T11:30:00Z",
+          "duration": 180
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_data_science_fundamentals",
+          "timestamp": "2024-11-05T11:35:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "pandas numpy",
+          "resultsCount": 5,
+          "timestamp": "2024-11-07T14:00:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_python_data_analysis",
+          "contentType": "course",
+          "title": "Python for Data Analysis",
+          "timestamp": "2024-11-07T14:10:00Z",
+          "duration": 150
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_python_data_analysis",
+          "contentType": "course",
+          "price": 2499,
+          "timestamp": "2024-11-07T14:15:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_python_data_analysis",
+          "contentType": "course",
+          "price": 2499,
+          "timestamp": "2024-11-07T14:20:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_python_data_analysis",
+          "progress": 60,
+          "timestamp": "2024-11-15T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_003",
+      "email": "amit.patel@example.com",
+      "preferences": {
+        "interests": ["artificial-intelligence", "genai", "llm", "python", "deep-learning"],
+        "skillLevel": "advanced",
+        "preferredContentType": ["courses", "books", "webinars"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-01T08:00:00Z",
+          "duration": 30
+        },
+        {
+          "eventType": "search",
+          "query": "large language models",
+          "resultsCount": 15,
+          "timestamp": "2024-11-01T08:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_llm_fundamentals",
+          "contentType": "course",
+          "title": "Large Language Models: Fundamentals and Applications",
+          "timestamp": "2024-11-01T08:10:00Z",
+          "duration": 300
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_llm_fundamentals",
+          "timestamp": "2024-11-01T08:15:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_llm_fundamentals",
+          "contentType": "course",
+          "price": 7999,
+          "timestamp": "2024-11-01T08:20:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_deep_learning",
+          "contentType": "book",
+          "title": "Deep Learning: A Comprehensive Guide",
+          "timestamp": "2024-11-02T10:00:00Z",
+          "duration": 120
+        },
+        {
+          "eventType": "book_purchase",
+          "contentId": "book_deep_learning",
+          "contentType": "book",
+          "price": 999,
+          "timestamp": "2024-11-02T10:05:00Z"
+        },
+        {
+          "eventType": "webinar_view",
+          "contentId": "webinar_genai_workshop",
+          "contentType": "webinar",
+          "title": "Generative AI Workshop: Building Production Applications",
+          "timestamp": "2024-11-03T16:00:00Z",
+          "duration": 7200
+        },
+        {
+          "eventType": "webinar_register",
+          "contentId": "webinar_genai_workshop",
+          "timestamp": "2024-11-03T16:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_transformer_architectures",
+          "contentType": "course",
+          "title": "Transformer Architectures and Attention Mechanisms",
+          "timestamp": "2024-11-05T09:00:00Z",
+          "duration": 240
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_llm_fundamentals",
+          "progress": 85,
+          "timestamp": "2024-11-10T14:00:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "langchain openai",
+          "resultsCount": 7,
+          "timestamp": "2024-11-12T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_004",
+      "email": "sneha.reddy@example.com",
+      "preferences": {
+        "interests": ["frontend", "ui-ux", "react", "css", "design"],
+        "skillLevel": "intermediate",
+        "preferredContentType": ["courses", "books"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-03T11:00:00Z",
+          "duration": 50
+        },
+        {
+          "eventType": "search",
+          "query": "react design patterns",
+          "resultsCount": 10,
+          "timestamp": "2024-11-03T11:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_react_ui_patterns",
+          "contentType": "course",
+          "title": "React UI Design Patterns",
+          "timestamp": "2024-11-03T11:10:00Z",
+          "duration": 180
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_css_mastery",
+          "contentType": "course",
+          "title": "Advanced CSS and Styling",
+          "timestamp": "2024-11-03T11:30:00Z",
+          "duration": 150
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_css_mastery",
+          "contentType": "course",
+          "price": 1999,
+          "timestamp": "2024-11-03T11:35:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_css_mastery",
+          "contentType": "course",
+          "price": 1999,
+          "timestamp": "2024-11-03T11:40:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_ui_ux_principles",
+          "contentType": "book",
+          "title": "UI/UX Design Principles",
+          "timestamp": "2024-11-05T13:00:00Z",
+          "duration": 100
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_css_mastery",
+          "progress": 45,
+          "timestamp": "2024-11-08T10:00:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_figma_to_react",
+          "contentType": "course",
+          "title": "From Figma to React: Design to Code",
+          "timestamp": "2024-11-10T15:00:00Z",
+          "duration": 200
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_figma_to_react",
+          "timestamp": "2024-11-10T15:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_005",
+      "email": "vikram.singh@example.com",
+      "preferences": {
+        "interests": ["devops", "cloud", "aws", "docker", "kubernetes", "automation"],
+        "skillLevel": "intermediate",
+        "preferredContentType": ["courses", "webinars"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-04T09:00:00Z",
+          "duration": 40
+        },
+        {
+          "eventType": "search",
+          "query": "kubernetes deployment",
+          "resultsCount": 6,
+          "timestamp": "2024-11-04T09:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_kubernetes_complete",
+          "contentType": "course",
+          "title": "Kubernetes: Complete Guide",
+          "timestamp": "2024-11-04T09:10:00Z",
+          "duration": 250
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_kubernetes_complete",
+          "timestamp": "2024-11-04T09:15:00Z"
+        },
+        {
+          "eventType": "webinar_view",
+          "contentId": "webinar_aws_advanced",
+          "contentType": "webinar",
+          "title": "Advanced AWS Architecture Patterns",
+          "timestamp": "2024-11-05T14:00:00Z",
+          "duration": 5400
+        },
+        {
+          "eventType": "webinar_register",
+          "contentId": "webinar_aws_advanced",
+          "timestamp": "2024-11-05T14:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_docker_mastery",
+          "contentType": "course",
+          "title": "Docker and Containerization Mastery",
+          "timestamp": "2024-11-06T10:00:00Z",
+          "duration": 200
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_docker_mastery",
+          "contentType": "course",
+          "price": 3499,
+          "timestamp": "2024-11-06T10:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_docker_mastery",
+          "contentType": "course",
+          "price": 3499,
+          "timestamp": "2024-11-06T10:10:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_docker_mastery",
+          "progress": 70,
+          "timestamp": "2024-11-12T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_006",
+      "email": "ananya.joshi@example.com",
+      "preferences": {
+        "interests": ["mobile-development", "react-native", "flutter", "ios", "android"],
+        "skillLevel": "beginner",
+        "preferredContentType": ["courses", "books"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-05T12:00:00Z",
+          "duration": 70
+        },
+        {
+          "eventType": "search",
+          "query": "react native tutorial",
+          "resultsCount": 9,
+          "timestamp": "2024-11-05T12:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_react_native_basics",
+          "contentType": "course",
+          "title": "React Native for Beginners",
+          "timestamp": "2024-11-05T12:10:00Z",
+          "duration": 220
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_flutter_intro",
+          "contentType": "course",
+          "title": "Flutter: Introduction to Mobile Development",
+          "timestamp": "2024-11-05T12:35:00Z",
+          "duration": 180
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_react_native_basics",
+          "contentType": "course",
+          "price": 2999,
+          "timestamp": "2024-11-05T12:40:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_react_native_basics",
+          "contentType": "course",
+          "price": 2999,
+          "timestamp": "2024-11-05T12:45:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_react_native_basics",
+          "progress": 55,
+          "timestamp": "2024-11-10T15:00:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_mobile_app_design",
+          "contentType": "book",
+          "title": "Mobile App Design Patterns",
+          "timestamp": "2024-11-08T10:00:00Z",
+          "duration": 80
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_ios_swift",
+          "contentType": "course",
+          "title": "iOS Development with Swift",
+          "timestamp": "2024-11-11T14:00:00Z",
+          "duration": 160
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_ios_swift",
+          "timestamp": "2024-11-11T14:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_007",
+      "email": "rohit.gupta@example.com",
+      "preferences": {
+        "interests": ["backend", "java", "spring-boot", "microservices", "database"],
+        "skillLevel": "intermediate",
+        "preferredContentType": ["courses", "books"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-02T13:00:00Z",
+          "duration": 35
+        },
+        {
+          "eventType": "search",
+          "query": "spring boot microservices",
+          "resultsCount": 11,
+          "timestamp": "2024-11-02T13:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_spring_boot_advanced",
+          "contentType": "course",
+          "title": "Advanced Spring Boot Development",
+          "timestamp": "2024-11-02T13:10:00Z",
+          "duration": 280
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_spring_boot_advanced",
+          "timestamp": "2024-11-02T13:15:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_microservices_architecture",
+          "contentType": "course",
+          "title": "Microservices Architecture Patterns",
+          "timestamp": "2024-11-03T10:00:00Z",
+          "duration": 240
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_microservices_architecture",
+          "contentType": "course",
+          "price": 4499,
+          "timestamp": "2024-11-03T10:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_microservices_architecture",
+          "contentType": "course",
+          "price": 4499,
+          "timestamp": "2024-11-03T10:10:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_java_best_practices",
+          "contentType": "book",
+          "title": "Java Best Practices and Design Patterns",
+          "timestamp": "2024-11-05T11:00:00Z",
+          "duration": 110
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_microservices_architecture",
+          "progress": 40,
+          "timestamp": "2024-11-09T14:00:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "database optimization",
+          "resultsCount": 7,
+          "timestamp": "2024-11-11T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_008",
+      "email": "meera.nair@example.com",
+      "preferences": {
+        "interests": [
+          "cybersecurity",
+          "ethical-hacking",
+          "penetration-testing",
+          "network-security"
+        ],
+        "skillLevel": "intermediate",
+        "preferredContentType": ["courses", "webinars"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-01T14:00:00Z",
+          "duration": 55
+        },
+        {
+          "eventType": "search",
+          "query": "ethical hacking course",
+          "resultsCount": 5,
+          "timestamp": "2024-11-01T14:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_ethical_hacking",
+          "contentType": "course",
+          "title": "Ethical Hacking and Penetration Testing",
+          "timestamp": "2024-11-01T14:10:00Z",
+          "duration": 300
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_ethical_hacking",
+          "timestamp": "2024-11-01T14:15:00Z"
+        },
+        {
+          "eventType": "webinar_view",
+          "contentId": "webinar_cybersecurity_trends",
+          "contentType": "webinar",
+          "title": "Latest Cybersecurity Trends and Threats",
+          "timestamp": "2024-11-02T15:00:00Z",
+          "duration": 3600
+        },
+        {
+          "eventType": "webinar_register",
+          "contentId": "webinar_cybersecurity_trends",
+          "timestamp": "2024-11-02T15:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_network_security",
+          "contentType": "course",
+          "title": "Network Security Fundamentals",
+          "timestamp": "2024-11-04T10:00:00Z",
+          "duration": 200
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_network_security",
+          "contentType": "course",
+          "price": 3999,
+          "timestamp": "2024-11-04T10:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_network_security",
+          "contentType": "course",
+          "price": 3999,
+          "timestamp": "2024-11-04T10:10:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_network_security",
+          "progress": 65,
+          "timestamp": "2024-11-10T13:00:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "OWASP top 10",
+          "resultsCount": 4,
+          "timestamp": "2024-11-12T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_009",
+      "email": "arjun.menon@example.com",
+      "preferences": {
+        "interests": ["product-management", "agile", "scrum", "analytics", "business"],
+        "skillLevel": "beginner",
+        "preferredContentType": ["courses", "books", "webinars"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-06T10:00:00Z",
+          "duration": 60
+        },
+        {
+          "eventType": "search",
+          "query": "product management basics",
+          "resultsCount": 8,
+          "timestamp": "2024-11-06T10:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_product_management",
+          "contentType": "course",
+          "title": "Product Management Fundamentals",
+          "timestamp": "2024-11-06T10:10:00Z",
+          "duration": 250
+        },
+        {
+          "eventType": "webinar_view",
+          "contentId": "webinar_agile_scrum",
+          "contentType": "webinar",
+          "title": "Agile and Scrum Masterclass",
+          "timestamp": "2024-11-07T11:00:00Z",
+          "duration": 5400
+        },
+        {
+          "eventType": "webinar_register",
+          "contentId": "webinar_agile_scrum",
+          "timestamp": "2024-11-07T11:05:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_product_strategy",
+          "contentType": "book",
+          "title": "Product Strategy and Roadmapping",
+          "timestamp": "2024-11-08T14:00:00Z",
+          "duration": 90
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_data_analytics_pm",
+          "contentType": "course",
+          "title": "Data Analytics for Product Managers",
+          "timestamp": "2024-11-09T09:00:00Z",
+          "duration": 180
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_data_analytics_pm",
+          "contentType": "course",
+          "price": 3499,
+          "timestamp": "2024-11-09T09:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_data_analytics_pm",
+          "contentType": "course",
+          "price": 3499,
+          "timestamp": "2024-11-09T09:10:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_data_analytics_pm",
+          "progress": 30,
+          "timestamp": "2024-11-13T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_010",
+      "email": "kavya.iyer@example.com",
+      "preferences": {
+        "interests": ["blockchain", "web3", "solidity", "ethereum", "defi", "cryptocurrency"],
+        "skillLevel": "advanced",
+        "preferredContentType": ["courses", "books"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-01T07:00:00Z",
+          "duration": 25
+        },
+        {
+          "eventType": "search",
+          "query": "solidity smart contracts",
+          "resultsCount": 6,
+          "timestamp": "2024-11-01T07:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_solidity_advanced",
+          "contentType": "course",
+          "title": "Advanced Solidity and Smart Contract Development",
+          "timestamp": "2024-11-01T07:10:00Z",
+          "duration": 320
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_solidity_advanced",
+          "contentType": "course",
+          "price": 8999,
+          "timestamp": "2024-11-01T07:15:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_web3_guide",
+          "contentType": "book",
+          "title": "Web3 Development: Complete Guide",
+          "timestamp": "2024-11-02T09:00:00Z",
+          "duration": 140
+        },
+        {
+          "eventType": "book_purchase",
+          "contentId": "book_web3_guide",
+          "contentType": "book",
+          "price": 1299,
+          "timestamp": "2024-11-02T09:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_defi_protocols",
+          "contentType": "course",
+          "title": "DeFi Protocols and DApp Development",
+          "timestamp": "2024-11-04T11:00:00Z",
+          "duration": 280
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_defi_protocols",
+          "timestamp": "2024-11-04T11:05:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_solidity_advanced",
+          "progress": 90,
+          "timestamp": "2024-11-10T08:00:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "ethereum layer 2",
+          "resultsCount": 5,
+          "timestamp": "2024-11-12T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_011",
+      "email": "siddharth.malhotra@example.com",
+      "preferences": {
+        "interests": ["game-development", "unity", "csharp", "3d-modeling", "gaming"],
+        "skillLevel": "intermediate",
+        "preferredContentType": ["courses", "books"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-03T13:00:00Z",
+          "duration": 45
+        },
+        {
+          "eventType": "search",
+          "query": "unity game development",
+          "resultsCount": 7,
+          "timestamp": "2024-11-03T13:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_unity_mastery",
+          "contentType": "course",
+          "title": "Unity Game Development Mastery",
+          "timestamp": "2024-11-03T13:10:00Z",
+          "duration": 260
+        },
+        {
+          "eventType": "course_bookmark",
+          "contentId": "course_unity_mastery",
+          "timestamp": "2024-11-03T13:15:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_csharp_gamedev",
+          "contentType": "course",
+          "title": "C# for Game Development",
+          "timestamp": "2024-11-04T10:00:00Z",
+          "duration": 200
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_csharp_gamedev",
+          "contentType": "course",
+          "price": 2999,
+          "timestamp": "2024-11-04T10:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_csharp_gamedev",
+          "contentType": "course",
+          "price": 2999,
+          "timestamp": "2024-11-04T10:10:00Z"
+        },
+        {
+          "eventType": "book_view",
+          "contentId": "book_3d_modeling",
+          "contentType": "book",
+          "title": "3D Modeling for Game Developers",
+          "timestamp": "2024-11-06T14:00:00Z",
+          "duration": 100
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_csharp_gamedev",
+          "progress": 50,
+          "timestamp": "2024-11-11T11:00:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "unity physics",
+          "resultsCount": 4,
+          "timestamp": "2024-11-13T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "user_012",
+      "email": "divya.krishnan@example.com",
+      "preferences": {
+        "interests": ["testing", "automation", "selenium", "qa", "quality-assurance"],
+        "skillLevel": "beginner",
+        "preferredContentType": ["courses", "webinars"]
+      },
+      "journey": [
+        {
+          "eventType": "page_view",
+          "page": "/",
+          "timestamp": "2024-11-07T10:00:00Z",
+          "duration": 50
+        },
+        {
+          "eventType": "search",
+          "query": "selenium automation testing",
+          "resultsCount": 9,
+          "timestamp": "2024-11-07T10:05:00Z"
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_selenium_complete",
+          "contentType": "course",
+          "title": "Selenium WebDriver: Complete Automation Testing",
+          "timestamp": "2024-11-07T10:10:00Z",
+          "duration": 240
+        },
+        {
+          "eventType": "course_view",
+          "contentId": "course_qa_fundamentals",
+          "contentType": "course",
+          "title": "QA Testing Fundamentals",
+          "timestamp": "2024-11-07T10:40:00Z",
+          "duration": 180
+        },
+        {
+          "eventType": "add_to_cart",
+          "contentId": "course_qa_fundamentals",
+          "contentType": "course",
+          "price": 1999,
+          "timestamp": "2024-11-07T10:45:00Z"
+        },
+        {
+          "eventType": "webinar_view",
+          "contentId": "webinar_testing_best_practices",
+          "contentType": "webinar",
+          "title": "Software Testing Best Practices",
+          "timestamp": "2024-11-08T15:00:00Z",
+          "duration": 3600
+        },
+        {
+          "eventType": "webinar_register",
+          "contentId": "webinar_testing_best_practices",
+          "timestamp": "2024-11-08T15:05:00Z"
+        },
+        {
+          "eventType": "purchase",
+          "contentId": "course_qa_fundamentals",
+          "contentType": "course",
+          "price": 1999,
+          "timestamp": "2024-11-09T09:00:00Z"
+        },
+        {
+          "eventType": "course_progress",
+          "contentId": "course_qa_fundamentals",
+          "progress": 35,
+          "timestamp": "2024-11-12T10:00:00Z"
+        },
+        {
+          "eventType": "search",
+          "query": "test automation framework",
+          "resultsCount": 6,
+          "timestamp": "2024-11-13T11:00:00Z"
+        }
+      ]
+    }
+  ]
+}
